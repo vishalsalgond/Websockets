@@ -1,10 +1,10 @@
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 4000;
 const express = require('express');
 const socket = require('socket.io');
 
 const app = express();
 
-const server = app.listen(4000,function(){
+const server = app.listen(port,function(){
     console.log('Server is running')
 });
 
