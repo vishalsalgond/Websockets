@@ -1,9 +1,10 @@
-var express = require('express');
-var socket = require('socket.io');
+const port = process.env.PORT || 3000;
+const express = require('express');
+const socket = require('socket.io');
 
-var app = express();
+const app = express();
 
-var server = app.listen(4000,function(){
+const server = app.listen(4000,function(){
     console.log('Server is running')
 });
 
