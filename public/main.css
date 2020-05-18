@@ -1,9 +1,10 @@
 body{
-    font-family: 'Nunito';
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
-h2{
-    font-size: 18px;
+h1{
+    font-size: 28px;
+    text-align: center;
     padding: 10px 20px;
     color: #575ed8;
 }

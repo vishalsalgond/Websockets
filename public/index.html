@@ -3,19 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://i.ya-webdesign.com/images/purple-circle-png-5.png" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.dev.js"></script>
-    <title>Websocket</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+    <title>ChatApp</title>
     <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
 </head>
 <body>
     <div id="mario-chat">
-        <h2>Chat</h2>
+        <nav class="navbar navbar-light bg-violet" style="margin-left:auto;">
+            <a class="navbar-brand" href="/">
+              <img src="https://www.pngmart.com/files/11/Chat-Logo-PNG-Image.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+              ChatApp
+            </a>
+          </nav>
+        
         <div id="chat-window">
             <div id="output"></div>
             <div id="feedback"></div>
         </div>
-        <input id="handle" type="text" placeholder="Handle" />
-        <input id="message" type="text" placeholder="Message" />
+        <input id="handle" type="text" placeholder="Enter your handle" />
+        <input id="message" type="text" placeholder="Type a message" />
         <button id="send">Send</button>
     </div>
     
